@@ -165,7 +165,7 @@ body.dark-mode .card-body i{
 
 /* Search Bar */
 .search-bar {
-    position: relative;
+    position: absolute;
     display: flex;
     align-items: center;
 }
@@ -174,7 +174,7 @@ body.dark-mode .card-body i{
     width: 100%;
     padding: 10px 40px 10px 15px;
     border: 1px solid #7a7676;
-    border-radius: 20px;
+    border-radius: 20px; 
 }
 
 .search-bar i {
