@@ -192,7 +192,7 @@ body.dark-mode .card-body i{
  
 @media (max-width: 768px) {
     .search-bar {
-        width: 50%;
+        width: 40%;
         margin-bottom: 0.5rem;
     }
 
