@@ -189,22 +189,16 @@ body.dark-mode .card-body i{
 .search-icon-mobile {
     display: none;
 }
-
-/* Expanded Search Bar */
-.search-bar.expanded {
-    width: 90%; /* Adjust as needed */
-    margin: 0 auto;
-}
-
-
+ 
 @media (max-width: 768px) {
     .search-bar {
-        display: none;
+        width: 100%;
+        margin-top: 10px;
     }
 
-    .search-icon-mobile {
-        display: inline-block;
-        cursor: pointer;
+    .search-bar input {
+        padding: 10px 40px 10px 15px;
+        border-radius: 15px;
     }
 }
 
