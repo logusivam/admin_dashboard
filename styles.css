@@ -189,10 +189,16 @@ body.dark-mode .card-body i{
 .search-icon-mobile {
     display: none;
 }
- 
+
+@media (max-width: 320px){
+    .search-bar{
+        width: 40%;
+    }
+}
+
 @media (max-width: 768px) {
     .search-bar {
-        width: 40%;
+        width: 50%;
         margin-bottom: 0.5rem;
     }
 
