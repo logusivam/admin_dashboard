@@ -45,14 +45,21 @@
                 </button>
     
                 <!-- Desktop Search Bar -->
-                <div class="search-bar mx-auto">
-                    <input class="form-control" type="search" id="searchInput" placeholder="Search Customers">
-                    <i class="fas fa-search" id="searchIcon" onclick="triggerSearch()"></i>
+                <div class="search-bar-container">
+                    <div class="search-bar mx-auto">
+                        <input class="form-control" type="search" id="searchInput" placeholder="Search Customers">
+                        <i class="fas fa-search" id="searchIcon" onclick="triggerSearch()"></i>
+                    </div>
                 </div>
-    
-                <!-- Mobile Search Icon -->
-                <i class="fas fa-search search-icon-mobile text-light ms-auto" onclick="showSearchBar()"></i>
-    
+            
+                <i class="fas fa-search search-icon-mobile text-light" onclick="showSearchBar()"></i>
+            
+            
+            <!-- Mobile Search Bar -->
+            <div class="mobile-search-bar d-none">
+                <input class="form-control" type="search" id="mobileSearchInput" placeholder="Search Customers">
+                <i class="fas fa-times close-search-icon" onclick="hideSearchBar()"></i>
+            </div>
                 <!-- User Profile Dropdown -->
             <div class="ms-auto">
                 <div class="dropdown">
