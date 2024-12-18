@@ -165,7 +165,7 @@ body.dark-mode .card-body i{
 
 /* Search Bar */
 .search-bar {
-    position: absolute;
+    position: relative;
     display: flex;
     align-items: center;
 }
