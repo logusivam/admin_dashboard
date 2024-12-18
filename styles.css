@@ -190,6 +190,13 @@ body.dark-mode .card-body i{
     display: none;
 }
 
+/* Expanded Search Bar */
+.search-bar.expanded {
+    width: 90%; /* Adjust as needed */
+    margin: 0 auto;
+}
+
+
 @media (max-width: 768px) {
     .search-bar {
         display: none;
